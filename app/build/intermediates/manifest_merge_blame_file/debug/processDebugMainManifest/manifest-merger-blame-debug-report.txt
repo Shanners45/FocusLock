@@ -1,0 +1,274 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.focuslock"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:6:5-77
+13-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:7:22-78
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.focuslock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.focuslock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:9:5-86:19
+23        android:name="com.example.focuslock.FocusLockApplication"
+23-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:10:9-45
+24        android:allowBackup="true"
+24-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.FocusLock" >
+33-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:16:9-47
+34        <activity
+34-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.example.focuslock.MainActivity"
+35-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="true"
+36-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:20:13-36
+37            android:theme="@style/Theme.FocusLock" >
+37-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:21:13-51
+38            <intent-filter>
+38-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:23:17-69
+39-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:28:9-31:54
+45            android:name="com.example.focuslock.settings.SettingsActivity"
+45-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:29:13-54
+46            android:exported="false"
+46-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:30:13-37
+47            android:theme="@style/Theme.FocusLock" />
+47-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:31:13-51
+48        <activity
+48-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:33:9-36:54
+49            android:name="com.example.focuslock.settings.SettingsLockActivity"
+49-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:34:13-58
+50            android:exported="false"
+50-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:35:13-37
+51            android:theme="@style/Theme.FocusLock" />
+51-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:36:13-51
+52        <activity
+52-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:38:9-41:54
+53            android:name="com.example.focuslock.settings.MotivationVerificationActivity"
+53-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:39:13-68
+54            android:exported="false"
+54-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:40:13-37
+55            android:theme="@style/Theme.FocusLock" />
+55-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:41:13-51
+56
+57        <service
+57-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:43:9-50:19
+58            android:name="com.example.focuslock.service.VpnService"
+58-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:44:13-47
+59            android:exported="false"
+59-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:46:13-37
+60            android:permission="android.permission.BIND_VPN_SERVICE" >
+60-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:45:13-69
+61            <intent-filter>
+61-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:47:13-49:29
+62                <action android:name="android.service.vpn.VpnService" />
+62-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:48:17-73
+62-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:48:25-70
+63            </intent-filter>
+64        </service>
+65
+66        <receiver
+66-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:52:9-63:20
+67            android:name="com.example.focuslock.admin.DeviceAdminReceiver"
+67-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:53:13-54
+68            android:description="@string/device_admin_description"
+68-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:54:13-67
+69            android:exported="false"
+69-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:55:13-37
+70            android:permission="android:permission.BIND_DEVICE_ADMIN" >
+70-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:56:13-70
+71            <meta-data
+71-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:57:13-59:56
+72                android:name="android.app.device_admin"
+72-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:58:17-56
+73                android:resource="@xml/device_admin" />
+73-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:59:17-53
+74
+75            <intent-filter>
+75-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:60:13-62:29
+76                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+76-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:61:17-82
+76-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:61:25-79
+77            </intent-filter>
+78        </receiver>
+79        <receiver
+79-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:65:9-72:20
+80            android:name="com.example.focuslock.receiver.SecretCodeReceiver"
+80-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:66:13-56
+81            android:exported="true" >
+81-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:67:13-36
+82            <intent-filter>
+82-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:68:13-71:29
+83                <action android:name="android.provider.Telephony.SECRET_CODE" />
+83-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:69:17-81
+83-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:69:25-78
+84
+85                <data android:scheme="android_secret_code" />
+85-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:70:17-62
+85-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:70:23-59
+86            </intent-filter>
+87        </receiver>
+88
+89        <service
+89-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:74:9-84:19
+90            android:name="com.example.focuslock.accessibility.AppBlockerService"
+90-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:75:13-60
+91            android:exported="false"
+91-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:76:13-37
+92            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+92-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:77:13-79
+93            <intent-filter>
+93-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:78:13-80:29
+94                <action android:name="android.accessibilityservice.AccessibilityService" />
+94-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:79:17-92
+94-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:79:25-89
+95            </intent-filter>
+96
+97            <meta-data
+97-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:81:13-83:72
+98                android:name="android.accessibilityservice"
+98-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:82:17-60
+99                android:resource="@xml/accessibility_service_config" />
+99-->C:\Users\nayak.DESKTOP-ON4D510\Downloads\focus-lock\app\src\main\AndroidManifest.xml:83:17-69
+100        </service>
+101
+102        <activity
+102-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1303319810ccfddbbf2884e2b4b44955\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:23:9-25:39
+103            android:name="androidx.activity.ComponentActivity"
+103-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1303319810ccfddbbf2884e2b4b44955\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:24:13-63
+104            android:exported="true" />
+104-->[androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1303319810ccfddbbf2884e2b4b44955\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:25:13-36
+105        <activity
+105-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1662acd3ee9f4ee785733cb5f03b77a6\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+106            android:name="androidx.compose.ui.tooling.PreviewActivity"
+106-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1662acd3ee9f4ee785733cb5f03b77a6\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+107            android:exported="true" />
+107-->[androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\1662acd3ee9f4ee785733cb5f03b77a6\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+108
+109        <provider
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+111            android:authorities="com.example.focuslock.androidx-startup"
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+112            android:exported="false" >
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+115                android:value="androidx.startup" />
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\c1c0fe64713222f32039135fefe21387\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\8c63901cda800139010362be6d3f2a9b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\8c63901cda800139010362be6d3f2a9b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\8c63901cda800139010362be6d3f2a9b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+121                android:value="androidx.startup" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+122        </provider>
+123
+124        <uses-library
+124-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+125            android:name="androidx.window.extensions"
+125-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+126            android:required="false" />
+126-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+127        <uses-library
+127-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+128            android:name="androidx.window.sidecar"
+128-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+129            android:required="false" />
+129-->[androidx.window:window:1.0.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\ff6059fa0d08d83c6cf78445b3dd8b0d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nayak.DESKTOP-ON4D510\.gradle\caches\8.12\transforms\e979dcacddc2d828161073357946b179\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>

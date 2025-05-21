@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FocusLock</string>
+    <string name="device_admin_description">Enables FocusLock to prevent accidental uninstallation during focus periods</string>
+    <string name="accessibility_service_description">Enables FocusLock to detect and block distracting apps and features</string>
+</resources>

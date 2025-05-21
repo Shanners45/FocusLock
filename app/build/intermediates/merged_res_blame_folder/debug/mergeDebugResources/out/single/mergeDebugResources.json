@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.focuslock.app-debug-67:/xml_device_admin.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/xml/device_admin.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/drawable_ic_launcher_foreground_new.png.flat",
+        "source": "com.example.focuslock.app-main-69:/drawable/ic_launcher_foreground_new.png"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/drawable_ic_shield.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/drawable_ic_launcher_foreground_image.png.flat",
+        "source": "com.example.focuslock.app-main-69:/drawable/ic_launcher_foreground_image.png"
+    },
+    {
+        "merged": "com.example.focuslock.app-debug-67:/layout_activity_main.xml.flat",
+        "source": "com.example.focuslock.app-main-69:/layout/activity_main.xml"
+    }
+]
