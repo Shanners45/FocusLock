@@ -28,5 +28,5 @@
 > ⚠️ This app is not on the Play Store. You can install it by building the APK or running it via Android Studio.
 
 ```bash
-git clone https://github.com/shanners/focus-lock.git
+git clone https://github.com/shanners45/focus-lock.git
 cd focus-lock
